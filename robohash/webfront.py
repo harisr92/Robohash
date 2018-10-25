@@ -224,7 +224,7 @@ class MainHandler(tornado.web.RequestHandler):
 class ImgHandler(tornado.web.RequestHandler):
     """
     The ImageHandler is our tornado class for creating a robot.
-    called as Robohash.org/$1, where $1 becomes the seed string for the Robohash obj
+    called as rubohash.herokuapp.com/$1, where $1 becomes the seed string for the Robohash obj
     """
     def get(self,string=None):
 
