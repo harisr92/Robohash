@@ -1,1 +1,1 @@
-web: python python robohash/webfront.py
+web: python robohash/webfront.py
