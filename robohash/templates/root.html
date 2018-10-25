@@ -264,20 +264,20 @@ function submitform()
  <div class="section_title">Here are five Robots, Randomly generated, Just for you!</div>
 
   <ul class="gallery">
-			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set1" %}
-			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set1" %}
-			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set1" %}
-			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set1" %}
-			{% set c5 =  ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set1" %}
+			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set1" %}
+			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set1" %}
+			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set1" %}
+			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set1" %}
+			{% set c5 =  ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set1" %}
 
 			<li><a href="//rubohash.herokuapp.com/{{c1}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}&size=150x150" width="150" height="150"/></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}/size_150x150" width="150" height="150"/></a></li>
 			<li><a href="//rubohash.herokuapp.com/{{c2}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c3}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c4}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c5}}" rel="prettyPhoto[gallery1]" title="{{random.choice(quotes)}}" class="fade"><img
             src="//rubohash.herokuapp.com/{{c5}}&size=150x150" width="150" height="150" /></a></li>
 	</ul>
@@ -297,20 +297,20 @@ function submitform()
   <p>By appending ?set=set2 to our Image's URLs, we are able to generate a whole slew of Random monsters. Here are 5 we picked out for you.  </p>
 
   <ul class="gallery">
-			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set2" %}
-			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set2" %}
-			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set2" %}
-			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set2" %}
-			{% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set2" %}
+			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set2" %}
+			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set2" %}
+			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set2" %}
+			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set2" %}
+			{% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set2" %}
 
 			<li><a href="//rubohash.herokuapp.com/{{c1}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}/size_150x150" width="150" height="150" /></a></li>
 			<li><a href="//rubohash.herokuapp.com/{{c2}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c3}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c4}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c5}}" rel="prettyPhoto[gallery1]" title="{{random.choice(quotes)}}" class="fade"><img
             src="//rubohash.herokuapp.com/{{c5}}&size=150x150" width="150" height="150" /></a></li>
 	</ul>
@@ -330,22 +330,22 @@ function submitform()
   <p>By appending ?set=set3 to our URLs, we get back to robots. New, suave, disembodied heads. That's sexy. Like a robot. </p>
 
   <ul class="gallery">
-			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set3" %}
-			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set3" %}
-			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set3" %}
-			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set3" %}
-			{% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set3" %}
+			{% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set3" %}
+			{% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set3" %}
+			{% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set3" %}
+			{% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set3" %}
+			{% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set3" %}
 
 			<li><a href="//rubohash.herokuapp.com/{{c1}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}/size_150x150" width="150" height="150" /></a></li>
 			<li><a href="//rubohash.herokuapp.com/{{c2}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c3}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c4}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c5}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c5}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(quotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c5}}/size_150x150" width="150" height="150" /></a></li>
 	</ul>
 
 </div><!-- end of content section -->
@@ -362,22 +362,22 @@ function submitform()
   <p>By appending ?set=set4 to our URLs, we can hydroponically grow beautiful kittens. </p>
 
   <ul class="gallery">
-      {% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set4" %}
-      {% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set4" %}
-      {% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set4" %}
-      {% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set4" %}
-      {% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png?set=set4" %}
+      {% set c1 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set4" %}
+      {% set c2 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set4" %}
+      {% set c3 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set4" %}
+      {% set c4 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set4" %}
+      {% set c5 = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(3)) + ".png/set_set4" %}
 
       <li><a href="//rubohash.herokuapp.com/{{c1}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c1}}/size_150x150" width="150" height="150" /></a></li>
       <li><a href="//rubohash.herokuapp.com/{{c2}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c2}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c3}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c3}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c4}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c4}}/size_150x150" width="150" height="150" /></a></li>
             <li><a href="//rubohash.herokuapp.com/{{c5}}" rel="prettyPhoto[gallery1]"
-            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c5}}&size=150x150" width="150" height="150" /></a></li>
+            title="{{random.choice(catquotes)}}" class="fade"><img src="//rubohash.herokuapp.com/{{c5}}/size_150x150" width="150" height="150" /></a></li>
   </ul>
 
 </div><!-- end of content section -->
